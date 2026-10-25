@@ -1,13 +1,13 @@
-# FotoBot series
+# FotoBot-HKU
 
-静态学术项目网站，目标地址为 **https://fotobot-series.github.io/**。
+静态学术项目网站，展示 FotoBot series，目标地址为 **https://fotobot-hku.github.io/**。
 
 `index.html` 已生成，可以直接发布。访问者不需要安装 Python，也不需要服务器后端。
 
 ## 文件结构
 
 ```text
-fotobot-series.github.io/
+fotobot-hku.github.io/
 ├── index.html                 # 生成好的网页，随 Git 提交
 ├── blog.md                    # 本仓库的正文源文件
 ├── .nojekyll                  # 直接发布静态文件
@@ -22,20 +22,20 @@ fotobot-series.github.io/
 
 ## 首次上传和发布
 
-1. 在 GitHub 创建或使用组织 **fotobot-series**。这个组织名需要可用，当前个人账号可作为组织管理员。
-2. 在该组织下创建公开仓库 **fotobot-series.github.io**。创建时保持仓库为空，不额外生成 README、License 或 .gitignore。
-3. 在本文件所在目录打开终端。若已经有初始提交，直接执行：
-
-   ```powershell
-   git remote add origin https://github.com/fotobot-series/fotobot-series.github.io.git
-   git push -u origin main
-   ```
-
-   如果 `git log -1` 显示尚无提交，先执行下面的命令再推送：
+1. 在 GitHub 创建或使用组织 **FotoBot-HKU**。这个组织名需要可用，当前个人账号可作为组织管理员。
+2. 在该组织下创建公开仓库 **fotobot-hku.github.io**。创建时保持仓库为空，不额外生成 README、License 或 .gitignore。
+3. 在本文件所在目录打开终端，先提交当前文件；如果工作区已经干净，可跳过这两条命令：
 
    ```powershell
    git add .
-   git commit -m "Create FotoBot series project website"
+   git commit -m "Prepare FotoBot-HKU website"
+   ```
+
+   然后关联新远程仓库并推送：
+
+   ```powershell
+   git remote add origin https://github.com/FotoBot-HKU/fotobot-hku.github.io.git
+   git push -u origin main
    ```
 
 4. 在新仓库中选择 **Settings → Pages → Build and deployment**：
@@ -43,9 +43,9 @@ fotobot-series.github.io/
    - Branch：**main**
    - Folder：**/ (root)**
    - 点击 **Save**。
-5. 等待 Pages 部署完成，访问 https://fotobot-series.github.io/ 。部署状态可在仓库 **Actions** 页面查看。
+5. 等待 Pages 部署完成，访问 https://fotobot-hku.github.io/ 。部署状态可在仓库 **Actions** 页面查看。
 
-仓库必须属于 `fotobot-series` 组织，才能使用上述根域名。仅在个人账号下使用相同仓库名不能得到该域名。
+仓库必须属于 `FotoBot-HKU` 组织，才能使用上述根域名。组织名可保留大写，但 Pages 仓库名和网址统一使用小写。仅在个人账号下使用相同仓库名不能得到该域名。
 
 参考：[GitHub Pages 地址规则](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、[发布源设置](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
 

@@ -21,7 +21,9 @@ In parallel, we are exploring a general agentic photography system that uses rec
 # Our work
 
 ### FotoBot: LLM-integrated photography prototype <a id="fotobot"></a>
+Paper: [FotoBot: an embodied AI photography robot system its design, prototyping and application](https://www.elspub.com/doi/10.55092/rl20260019)
 Developed by Dawei Wang.
+
 <video src="demos/preview/大维版demo.webm" controls preload="metadata" width="100%">
   <a href="demos/大维版demo.mp4">FotoBot: LLM-integrated photography prototype</a>
 </video>
@@ -37,6 +39,7 @@ Developed by Ruixing Jia.
 
 
 ### LEAP: learning embodied aesthetics for photography <a id="leap"></a>
+Paper: [](https://www.researchsquare.com/article/rs-11118236/v1)
 Developed by Chang Chen.
 
 1) Pipeline and results summary.
@@ -53,5 +56,5 @@ Developed by Chang Chen.
 
 
 ---
-If you are also interested in this direction, you are welcomed to stay tuned to us, or contact us via email (changchen@connect.hku.hk).
+If you are also interested in this direction, you are welcomed to stay tuned to us, or contact us for collaboration via email (changchen@connect.hku.hk).
 
