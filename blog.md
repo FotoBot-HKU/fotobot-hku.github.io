@@ -29,17 +29,8 @@ Developed by Dawei Wang.
 </video>
 
 
-
-### Robotic vlog recording <a id="vlog"></a>
-Developed by Ruixing Jia.
-
-<video src="demos/preview/pixbot-demo-tech--ruixing.webm" controls preload="metadata" width="100%">
-  <a href="demos/pixbot-demo-tech--ruixing.mp4">Robotic vlog recording</a>
-</video>
-
-
 ### LEAP: learning embodied aesthetics for photography <a id="leap"></a>
-Paper: [](https://www.researchsquare.com/article/rs-11118236/v1)
+Paper: [Autonomous robotic photography as a creative urban service](https://www.researchsquare.com/article/rs-11118236/v1)
 Developed by Chang Chen.
 
 1) Pipeline and results summary.
@@ -52,6 +43,13 @@ Developed by Chang Chen.
    
 <video src="demos/preview/5_one_day_deployment.webm" controls preload="metadata" width="100%">
   <a href="demos/5_one_day_deployment.mp4">LEAP-2</a>
+</video>
+
+### Robotic vlog recording <a id="vlog"></a>
+Developed by Ruixing Jia.
+
+<video src="demos/preview/pixbot-demo-tech--ruixing.webm" controls preload="metadata" width="100%">
+  <a href="demos/pixbot-demo-tech--ruixing.mp4">Robotic vlog recording</a>
 </video>
 
 
