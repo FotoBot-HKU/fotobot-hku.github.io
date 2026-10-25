@@ -116,11 +116,12 @@ def build(source: Path) -> None:
     metadata: dict[str, str] = {}
 
     def extract_metadata(match: re.Match) -> str:
-        metadata[match.group(1).lower()] = match.group(2).strip()
+        key = match.group(1).lower()
+        metadata["institute" if key == "institutions" else key] = match.group(2).strip()
         return ""
 
     prose = re.sub(
-        r"^\*\*(Author|Date|Team|Institute):\*\*[ \t]*(.+)$",
+        r"^\*\*(Author|Date|Team|Institute|Institutions):\*\*[ \t]*(.+)$",
         extract_metadata,
         original,
         flags=re.MULTILINE,
