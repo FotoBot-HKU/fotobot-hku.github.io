@@ -38,6 +38,7 @@ a:focus-visible { outline: 3px solid #80afd6; outline-offset: 5px; }
 .project-details > div { display: grid; grid-template-columns: 95px 1fr; gap: 20px; }
 .project-details dt { color: var(--muted); }
 .project-details dd { color: #354e62; }
+.byline a, .project-details dd a { text-decoration: underline; text-underline-offset: 3px; }
 .article-section { padding: 54px 32px 74px; }
 .article-body { max-width: 872px !important; font-size: 17px; line-height: 1.85; overflow-wrap: anywhere; }
 .article-body h2 { font-size: 30px; letter-spacing: -.025em; color: var(--ink); margin-bottom: 24px; }

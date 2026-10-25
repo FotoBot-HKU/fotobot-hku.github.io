@@ -152,12 +152,13 @@ def build(source: Path) -> None:
     media.feed(markdown.renderer.render(tokens, markdown.options, {}))
     media.close()
     details = "".join(
-        f'<div><dt>{label}</dt><dd>{escape(metadata[key])}</dd></div>'
+        f'<div><dt>{label}</dt><dd>{markdown.renderInline(metadata[key]) if key == "team" else escape(metadata[key])}</dd></div>'
         for key, label in (("team", "Team"), ("institute", "Institutions"))
         if metadata.get(key)
     )
     byline = " · ".join(
-        escape(metadata[key]) for key in ("author", "date") if metadata.get(key)
+        markdown.renderInline(metadata[key]) if key == "author" else escape(metadata[key])
+        for key in ("author", "date") if metadata.get(key)
     )
     contact_link = (
         f'<a href="mailto:{escape(email, quote=True)}">Contact</a>' if email else ""

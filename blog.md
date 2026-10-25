@@ -17,9 +17,9 @@ In parallel, we are exploring three directions for future work:
 Through these efforts, we envision robots supporting people and collaborating with them to create cultural artifacts. We hope to **make robotic creative assistance an efficient, reliable, and accessible part of everyday life** in the near future.
 
 
-**Author:** Chang Chen
+**Author:** [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en)
 **Date:** 25 October 2026
-**Team:** Chang Chen, Dawei Wang, Ruixing Jia, Lei Yang, Marc Christie, Jia Pan
+**Team:** [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en), [Dawei Wang](), [Ruixing Jia](), [Lei Yang](), [Marc Christie](), [Jia Pan]()
 **Institutions:** The University of Hong Kong, University of Rennes, LimX Dynamics, Shenzhen Loop Area Institute
 
 
@@ -32,7 +32,7 @@ Through these efforts, we envision robots supporting people and collaborating wi
 ### FotoBot: LLM-integrated photography prototype <a id="fotobot"></a>
 Paper: [FotoBot: an embodied AI photography robot system its design, prototyping and application](https://www.elspub.com/doi/10.55092/rl20260019)
 
-Developed by Dawei Wang.
+Developed by [Dawei Wang]().
 
 <video src="demos/preview/大维版demo.webm" controls preload="metadata" width="100%">
   <a href="demos/大维版demo.mp4">FotoBot: LLM-integrated photography prototype</a>
@@ -42,7 +42,7 @@ Developed by Dawei Wang.
 ### LEAP: learning embodied aesthetics for photography <a id="leap"></a>
 Paper: [Autonomous robotic photography as a creative urban service](https://www.researchsquare.com/article/rs-11118236/v1)
 
-Developed by Chang Chen.
+Developed by [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en).
 
 1) Pipeline and results summary.
   
@@ -57,7 +57,7 @@ Developed by Chang Chen.
 </video>
 
 ### Robotic vlog recording <a id="vlog"></a>
-Developed by Ruixing Jia.
+Developed by [Ruixing Jia]().
 <video src="demos/preview/pixbot-demo-tech--ruixing.webm" controls preload="metadata" width="100%">
   <a href="demos/pixbot-demo-tech--ruixing.mp4">Robotic vlog recording</a>
 </video>
