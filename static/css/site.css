@@ -50,8 +50,6 @@ a:focus-visible { outline: 3px solid #80afd6; outline-offset: 5px; }
 .article-body ol { margin-left: 1.25em; }
 .article-body ol li p { margin-bottom: 0; }
 .article-body video { display: block; width: 100%; height: auto; background: #101a23; border: 1px solid var(--line); border-radius: 7px; margin-top: 18px; }
-.article-body .video-file { font-size: 12px; line-height: 1.5; margin: 8px 0 30px; }
-.video-file span { color: var(--muted); }
 .site-footer { background: var(--paper); border-top: 1px solid var(--line); padding: 28px 32px; }
 .footer-inner { display: flex; justify-content: space-between; gap: 28px; align-items: flex-start; }
 .footer-brand { font-size: 15px; font-weight: 650; white-space: nowrap; color: var(--ink); }

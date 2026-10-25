@@ -87,7 +87,7 @@ python -m http.server 8000
 
 - 四个视频是 VP8 + Opus 的 WebM 副本，保留声音；相比原始 MP4，分辨率和码率较低。
 - 当前单个文件均低于 GitHub 普通仓库的 100 MiB 限制。最大的约 67 MiB，超过网页上传的 25 MiB 限制，因此请用 Git 推送。
-- 原始 MP4 不包含在发布目录内，也被 `.gitignore` 排除。构建时会把视频内部的原始 MP4 备用链接改为对应 WebM，并显示可直接打开的文件链接。
+- 原始 MP4 不包含在发布目录内，也被 `.gitignore` 排除。构建时会把视频内部的原始 MP4 备用链接改为对应 WebM；播放器下方不额外显示文件链接。
 - 视频使用 `preload="metadata"`，不会自动播放；封面图片来自各自视频。
 - 添加新视频时，将文件放入 `demos/preview/` 并更新 `blog.md`。如需封面，可放入 `static/images/` 并在 `scripts/build.py` 的 `POSTERS` 中登记。
 

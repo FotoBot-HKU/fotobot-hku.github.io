@@ -57,13 +57,7 @@ class MediaRenderer(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         self.parts.append(f"</{tag}>")
-        if tag == "video" and self.video_source:
-            path = ROOT / unquote(self.video_source)
-            size = path.stat().st_size / (1024 * 1024)
-            self.parts.append(
-                f'<p class="video-file"><a href="{escape(self.video_source)}">'
-                f"Open video file <span>({size:.1f} MiB)</span></a></p>"
-            )
+        if tag == "video":
             self.video_source = None
 
     def handle_data(self, data: str) -> None:

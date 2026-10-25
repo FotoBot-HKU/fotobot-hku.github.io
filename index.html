@@ -45,38 +45,45 @@
   <main class="section article-section" id="main-content">
     <article class="container content article-body">
       <h2 id="what-is-fotobot">What is FotoBot?</h2>
-<p>Advances in large language models (LLMs) have opened new possibilities for robots to operate in open, real-world environments. As these capabilities develop towards superintelligence (SI), robots could autonomously handle more everyday tasks, giving people more time to travel, create, and share their experiences. Yet translating personal creative ideas into cultural objects through drawing, photograph, or vlog can be difficult without the necessary skills. Capturing a compelling photograph or producing a polished vlog can require professional expertise or even an entire production team.</p>
-<p>Could SI make creative expression more accessible by enabling robots to become creative partners? Robotics research has traditionally focused on utilitarian tasks with clearly defined goals. Creative collaboration also requires robots to respond to personal intentions, aesthetic preferences, and subjective judgements. This vision motivates the <em>FotoBot</em> series, which explores how robots can become interactive partners in the creative process. Our mission is to <strong>help everyone bring their creative ideas to life, without requiring professional skills.</strong></p>
-<p>Since launching the project in 2024, we have explored several aspects of robotic photography and videography. Our work spans an LLM-integrated prototype (<a href="#fotobot">FotoBot</a>), autonomous portrait photography algorithms and service workflows (<a href="#leap">LEAP</a>), and camera following and motion control for <a href="#vlog">vlog recording</a>. Our approach combines aesthetic judgement with safe, adaptive operation in dynamic public spaces. For user interaction, we provide a comprehensive, privacy-preserving service workflow, making the image capture and store legible. It also incorporates a GPT model to parse user prompts and interpret their intent. Extensive deployment experiments have demonstrated the feasibility of operating these systems in real urban environments.</p>
-<p>In parallel, we are exploring a general agentic photography system that uses recent advances in LLMs to interpret free-form user instructions across diverse scenarios. We are also investigating recursive self-evolving (RSI) methods to enable automatic improvement and adaptation to individual preferences. Beyond photography and vlog recording, we also plan to do robotic filming in the real-world scenarios. Through this line of work, we aim to <strong>make robotic creative assistance an efficient, reliable, and accessible part of everyday life</strong>.</p>
+<p><img src="concept_figure.png" alt="FotoBot concept: robots collaborating with people to bring creative ideas to life through photography and videography."></p>
+<p>Advances in large language models (LLMs) have opened new possibilities for robots to operate in open, real-world environments. As these capabilities develop towards superintelligence (SI), robots could autonomously handle more everyday tasks, giving people more time to travel, create, and share their experiences. Yet <strong>turning personal creative ideas into cultural artefacts</strong>, such as drawings, photographs, and vlogs, can be difficult without the necessary skills. Capturing a compelling photograph or producing a polished vlog can require professional expertise or even an entire production team.</p>
+<p>Could SI make creative expression more accessible by enabling robots to become <em>creative partners</em>? Robots have traditionally focused on utilitarian tasks with clearly defined goals. Creative human-robot collaboration also requires robots to respond to personal intentions, aesthetic preferences, and subjective judgements. This vision motivates the <em>FotoBot</em> series, which explores how robots can become interactive partners in the creative process. Our mission is to <strong>help everyone bring their creative ideas to life, without requiring professional skills.</strong></p>
+<p>Since launching the project in 2024, we have explored several aspects of robotic photography and videography. Levaraging the cutting-edge SI techniques, our work has spanned 1) an LLM-integrated system prototype (<a href="#fotobot">FotoBot</a>), 2) autonomous portrait photography algorithms and urban service workflows (<a href="#leap">LEAP</a>), and 3) camera following and motion control for <a href="#vlog">vlog recording</a>. Our approach combines aesthetic judgement with safe, adaptive operation in dynamic public spaces. For user interaction, we provide a comprehensive, privacy-preserving service workflow that makes image capture and storage transparent to users. The workflow also uses a GPT model to parse user prompts and interpret their intent. Extensive deployment experiments have demonstrated the feasibility of operating these systems in real urban environments.</p>
+<p>In parallel, we are exploring three directions for future development:</p>
+<ul>
+<li>An agent-harness photography system that adapts to free-form user instructions across diverse scenarios.</li>
+<li>Recursive self-evolving (RSI) methods for automatic improvement and adaptation to individual preferences.</li>
+<li>A library of camera motion skills for vlog recording, including dolly-in and dolly-out movements, orbit shots, and lateral tracking.</li>
+</ul>
+<p>Through these efforts, we envision robots supporting people and collaborating with them to create cultural artifacts. We hope to <strong>make robotic creative assistance an efficient, reliable, and accessible part of everyday life</strong>.</p>
 <hr>
 <h2 id="our-work">Our work</h2>
 <h3 id="fotobot-llm-integrated-photography-prototype">FotoBot: LLM-integrated photography prototype <a id="fotobot"></a></h3>
-<p>Paper: <a href="https://www.elspub.com/doi/10.55092/rl20260019">FotoBot: an embodied AI photography robot system its design, prototyping and application</a>
-Developed by Dawei Wang.</p>
+<p>Paper: <a href="https://www.elspub.com/doi/10.55092/rl20260019">FotoBot: an embodied AI photography robot system its design, prototyping and application</a></p>
+<p>Developed by Dawei Wang.</p>
 <video src="demos/preview/%E5%A4%A7%E7%BB%B4%E7%89%88demo.webm" controls preload="metadata" playsinline poster="static/images/fotobot.jpg" aria-label="FotoBot photography prototype">
   <a href="demos/preview/%E5%A4%A7%E7%BB%B4%E7%89%88demo.webm">FotoBot: LLM-integrated photography prototype</a>
-</video><p class="video-file"><a href="demos/preview/%E5%A4%A7%E7%BB%B4%E7%89%88demo.webm">Open video file <span>(23.1 MiB)</span></a></p>
+</video>
 <h3 id="leap-learning-embodied-aesthetics-for-photography">LEAP: learning embodied aesthetics for photography <a id="leap"></a></h3>
-<p>Paper: <a href="https://www.researchsquare.com/article/rs-11118236/v1">Autonomous robotic photography as a creative urban service</a>
-Developed by Chang Chen.</p>
+<p>Paper: <a href="https://www.researchsquare.com/article/rs-11118236/v1">Autonomous robotic photography as a creative urban service</a></p>
+<p>Developed by Chang Chen.</p>
 <ol>
 <li>Pipeline and results summary.</li>
 </ol>
 <video src="demos/preview/LEAP%20nature_cities_final.webm" controls preload="metadata" playsinline poster="static/images/leap.jpg" aria-label="LEAP pipeline and results">
   <a href="demos/preview/LEAP%20nature_cities_final.webm">LEAP-1</a>
-</video><p class="video-file"><a href="demos/preview/LEAP%20nature_cities_final.webm">Open video file <span>(67.1 MiB)</span></a></p>
+</video>
 <ol start="2">
 <li>One day deployment in Shenzhen Talent Park.</li>
 </ol>
 <video src="demos/preview/5_one_day_deployment.webm" controls preload="metadata" playsinline poster="static/images/deployment.jpg" aria-label="One day deployment">
   <a href="demos/preview/5_one_day_deployment.webm">LEAP-2</a>
-</video><p class="video-file"><a href="demos/preview/5_one_day_deployment.webm">Open video file <span>(18.0 MiB)</span></a></p>
+</video>
 <h3 id="robotic-vlog-recording">Robotic vlog recording <a id="vlog"></a></h3>
 <p>Developed by Ruixing Jia.</p>
 <video src="demos/preview/pixbot-demo-tech--ruixing.webm" controls preload="metadata" playsinline poster="static/images/vlog.jpg" aria-label="Robotic vlog recording">
   <a href="demos/preview/pixbot-demo-tech--ruixing.webm">Robotic vlog recording</a>
-</video><p class="video-file"><a href="demos/preview/pixbot-demo-tech--ruixing.webm">Open video file <span>(17.7 MiB)</span></a></p>
+</video>
 <hr>
 <p>If you are also interested in this direction, you are welcomed to stay tuned to us, or contact us for collaboration via email (<a href="mailto:changchen@connect.hku.hk">changchen@connect.hku.hk</a>).</p>
 
