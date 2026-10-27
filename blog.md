@@ -11,7 +11,7 @@ Since launching the project in 2024, we have explored several aspects of robotic
 In parallel, we are exploring three directions for future work:
 
 - An agent-harnessed photography system that adapts to free-form user instructions across diverse scenarios.
-- Recursive self-evolving (RSI) methods for automatic improvement and adaptation to individual preferences.
+- Recursive self-improvement (RSI) methods for automatic improvement and adaptation to individual preferences.
 - A library of camera motion skills for vlog recording, including dolly-in and dolly-out movements, orbit shots, and lateral tracking.
 
 Through these efforts, we envision robots supporting people and collaborating with them to create cultural artifacts. We hope to **make robotic creative assistance an efficient, reliable, and accessible part of everyday life** in the near future.
