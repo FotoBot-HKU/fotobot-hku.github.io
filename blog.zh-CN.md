@@ -19,7 +19,7 @@
 **Author:** [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en)
 **Date:** 2026 年 10 月 25 日
 **Team:** [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en)、[Dawei Wang]()、[Ruixing Jia]()、[Lei Yang]()、[Marc Christie]()、[Jia Pan]()
-**Institutions:** 香港大学、雷恩大学、逐际动力、Shenzhen Loop Area Institute
+**Institutions:** 香港大学、雷恩大学、逐际动力、深圳河套学院
 
 ---
 
