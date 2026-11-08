@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="$lang">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#214e79">
-  <meta name="description" content="The FotoBot series explores robots as creative partners through autonomous photography, videography, and personalised creative assistance.">
+  <meta name="description" content="$description">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="FotoBot-HKU | Robots as creative partners">
-  <meta property="og:description" content="Robotic photography and videography guided by personal intentions and aesthetic preferences.">
-  <meta property="og:url" content="https://fotobot-hku.github.io/">
+  <meta property="og:title" content="$page_title">
+  <meta property="og:description" content="$social_description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:locale" content="$og_locale">
   <meta property="og:image" content="https://fotobot-hku.github.io/static/images/fotobot.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://fotobot-hku.github.io/">
+  <link rel="canonical" href="$canonical">
+  <link rel="alternate" hreflang="en" href="https://fotobot-hku.github.io/">
+  <link rel="alternate" hreflang="zh-CN" href="https://fotobot-hku.github.io/zh.html">
   <link rel="icon" href="fotobot_logo.png" type="image/png">
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/site.css">
-  <title>FotoBot-HKU | Robots as creative partners</title>
+  <title>$page_title</title>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content">$skip_label</a>
   <header class="site-header">
-    <nav class="site-nav container" aria-label="Main navigation">
+    <nav class="site-nav container" aria-label="$nav_label">
       <a class="brand" href="#top"><img class="brand-logo" src="fotobot_logo.png" alt="" width="44" height="44">FotoBot-HKU</a>
       <div class="nav-links">
-        <a href="#what-is-fotobot">About</a>
-        <a href="#our-work">Our work</a>
+        <a href="#what-is-fotobot">$about_label</a>
+        <a href="#our-work">$work_label</a>
         $contact_link
+        <a class="language-toggle" href="$language_href" lang="$language_target" hreflang="$language_target" aria-label="$language_switch_label">$language_label</a>
       </div>
     </nav>
   </header>
   <section class="hero project-hero" id="top" aria-labelledby="page-title">
     <div class="hero-body container">
-      <p class="eyebrow">Robotic photography &amp; videography</p>
+      <p class="eyebrow">$eyebrow</p>
       <h1 class="title" id="page-title">FotoBot</h1>
-      <p class="subtitle">Robots as creative partners</p>
+      <p class="subtitle">$subtitle</p>
       <p class="byline">$byline</p>
       <div class="hero-actions">
-        <a class="button work-button" href="#our-work">Explore our work <span aria-hidden="true">↗</span></a>
+        <a class="button work-button" href="#our-work">$explore_label <span aria-hidden="true">↗</span></a>
         $contact_button
       </div>
       <dl class="project-details">$details</dl>
@@ -50,8 +54,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <a class="footer-brand" href="#top">FotoBot-HKU</a>
-      <p>Page structure adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>
-        (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>), using <a href="https://bulma.io/">Bulma</a>.</p>
+      <p>$footer_credit</p>
     </div>
   </footer>
 </body>

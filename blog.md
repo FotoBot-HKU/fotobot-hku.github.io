@@ -40,7 +40,7 @@ Developed by [Dawei Wang]().
 
 
 ### LEAP: learning embodied aesthetics for photography <a id="leap"></a>
-Paper: [Autonomous robotic photography as a creative urban service](https://www.researchsquare.com/article/rs-11118236/v1)
+Paper: [(*Nature Cities under review*) Autonomous robotic photography as a creative urban service](https://www.researchsquare.com/article/rs-11118236/v1)
 
 Developed by [Chang Chen](https://scholar.google.com/citations?user=1jx4TqkAAAAJ&hl=en).
 

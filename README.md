@@ -9,7 +9,9 @@
 ```text
 fotobot-hku.github.io/
 ├── index.html                 # 生成好的网页，随 Git 提交
+├── zh.html                    # 生成好的中文网页，随 Git 提交
 ├── blog.md                    # 本仓库的正文源文件
+├── blog.zh-CN.md               # 中文正文源文件
 ├── .nojekyll                  # 直接发布静态文件
 ├── requirements.txt           # 仅用于本地生成网页
 ├── scripts/build.py           # Markdown → HTML；同时检查资源和章节链接
@@ -56,12 +58,16 @@ fotobot-hku.github.io/
 ```powershell
 python -m pip install -r requirements.txt
 python scripts/build.py
-git add blog.md index.html
+git add blog.md blog.zh-CN.md index.html zh.html
 git commit -m "Update FotoBot series article"
 git push
 ```
 
 依赖只需安装一次。正文会原样呈现，不会在构建过程中自动润色。
+
+页面右上角的 **中文 / English** 按钮可以一键切换语言，无需 JavaScript。英文版内容编辑 `blog.md`，中文版内容编辑 `blog.zh-CN.md`；作者姓名保留原文。两份源文件的元数据字段名（`Author`、`Date`、`Team`、`Institutions`）保持英文，字段内容使用对应语言。新增或修改正文时，请同步维护两个版本。
+
+运行 `python scripts/build.py` 会同时生成英文 `index.html` 和中文 `zh.html`。首次发布双语功能时，也需要提交 `scripts/build.py`、`templates/page.html` 和 `static/css/site.css` 的修改。
 
 如果仍在编辑上一层工作目录里的 `blog.md`，请显式导入最新版本：
 

@@ -14,13 +14,15 @@ a:focus-visible { outline: 3px solid #80afd6; outline-offset: 5px; }
 [id] { scroll-margin-top: 100px; }
 .container { max-width: 1080px !important; }
 .site-header { border-bottom: 1px solid var(--line); background: #fff; }
-.site-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px 32px; }
+.site-nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; padding: 22px 32px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 23px; font-weight: 750; letter-spacing: -.7px; color: var(--ink); white-space: nowrap; }
 .brand-logo { display: block; width: 44px; height: 44px; flex-shrink: 0; object-fit: contain; }
 .brand span { margin-left: 6px; font-size: 16px; font-weight: 400; color: var(--muted); letter-spacing: 0; }
 .brand:hover, .footer-brand:hover { text-decoration: none; }
-.nav-links { display: flex; flex-wrap: wrap; gap: 28px; font-size: 14px; font-weight: 600; }
+.nav-links { display: flex; align-items: center; flex-wrap: wrap; gap: 28px; font-size: 14px; font-weight: 600; }
 .nav-links a { color: var(--ink); }
+.nav-links .language-toggle { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; padding: 6px 14px; border: 1px solid #b8c8d4; border-radius: 5px; color: var(--accent); white-space: nowrap; }
+.nav-links .language-toggle:hover { background: var(--paper); border-color: var(--accent); text-decoration: none; }
 .project-hero { background: var(--paper); border-bottom: 1px solid var(--line); }
 .project-hero .hero-body { width: 100%; padding: 68px 32px 44px; }
 .eyebrow { text-transform: uppercase; letter-spacing: .16em; color: var(--accent); font-size: 12px; font-weight: 700; margin-bottom: 20px; }
